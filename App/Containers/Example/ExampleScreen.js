@@ -1,11 +1,11 @@
 import React from 'react'
-import { Platform, Text, View, Button, ActivityIndicator, Image } from 'react-native'
+import { Platform, Text, View, Button, ActivityIndicator } from 'react-native'
 import { connect } from 'react-redux'
 import { PropTypes } from 'prop-types'
 import ExampleActions from 'App/Stores/Example/Actions'
 import { liveInEurope } from 'App/Stores/Example/Selectors'
 import Style from './ExampleScreenStyle'
-import { ApplicationStyles, Helpers, Images, Metrics } from 'App/Theme'
+import { ApplicationStyles, Helpers, Metrics } from 'App/Theme'
 import NavigationService from 'App/Services/NavigationService'
 
 /**
@@ -22,7 +22,7 @@ const instructions = Platform.select({
 
 class ExampleScreen extends React.Component {
   componentDidMount() {
-   // this._fetchUser()
+    // this._fetchUser()
   }
 
   render() {
@@ -39,19 +39,14 @@ class ExampleScreen extends React.Component {
           <ActivityIndicator size="large" color="#0000ff" />
         ) : (
           <View>
-
             <Text style={Style.text}>To get started, edit App.js</Text>
             <Text style={Style.instructions}>{instructions}</Text>
             {this.props.userErrorMessage ? (
               <Text style={Style.error}>{this.props.userErrorMessage}</Text>
             ) : (
               <View>
-                <Text style={Style.result}>
-                  {this.props.user.name}
-                </Text>
-                <Text style={Style.result}>
-                  {`dddddd${this.props.user.address.city}`}
-                </Text>
+                <Text style={Style.result}>{this.props.user.name}</Text>
+                <Text style={Style.result}>{`dddddd${this.props.user.address.city}`}</Text>
               </View>
             )}
             <Button
@@ -67,7 +62,7 @@ class ExampleScreen extends React.Component {
 
   _fetchUser() {
     NavigationService.navigateAndReset('LoginPage')
-    //this.props.fetchUser()
+    // this.props.fetchUser()
   }
 }
 

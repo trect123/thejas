@@ -6,22 +6,20 @@
 
 import { INITIAL_STATE } from './InitialState'
 import { createReducer } from 'reduxsauce'
-import {  LoginTypes } from './Actions'
+import { LoginTypes } from './Actions'
 
 export const loginUser = (state) => ({
   ...state,
-  isLoggedIn:false,
+  isLoggedIn: false,
   username: '',
   userID: 0,
   userType: -1,
   loginError: '',
 })
 
-export const loginUserSuccess = (state, userDetails) => (
-
-  {
+export const loginUserSuccess = (state, userDetails) => ({
   ...state,
-  isLoggedIn:true,
+  isLoggedIn: true,
   username: userDetails.username,
   userID: userDetails.userID,
   userType: userDetails.loginType,
@@ -30,7 +28,7 @@ export const loginUserSuccess = (state, userDetails) => (
 
 export const loginUserFailure = (state, { errorMessage }) => ({
   ...state,
-  loginError: errorMessage
+  loginError: errorMessage,
 })
 
 /**

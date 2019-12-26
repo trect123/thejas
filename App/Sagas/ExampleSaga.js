@@ -15,7 +15,7 @@ export function* fetchUser() {
 
   // Fetch user informations from an API
   const user = yield call(userService.fetchUser)
-  console.log("REsponse is ",user)
+  console.log('REsponse is ', user)
   if (user) {
     yield put(ExampleActions.fetchUserSuccess(user))
   } else {

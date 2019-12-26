@@ -1,10 +1,8 @@
-import React, { Component } from 'react';
-import { Platform, Text, View, Button,  TextInput,     ScrollView } from 'react-native'
+import React from 'react'
+import { Text, View, Button, TextInput, ScrollView, ActivityIndicator } from 'react-native'
 import { connect } from 'react-redux'
 import { PropTypes } from 'prop-types'
 import LoginActions from 'App/Stores/Login/Actions'
-import { liveInEurope } from 'App/Stores/Example/Selectors'
-
 
 /**
  * This is an example of a container component.
@@ -13,41 +11,26 @@ import { liveInEurope } from 'App/Stores/Example/Selectors'
  * Feel free to remove it.
  */
 
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\nCmd+D or shake for dev menu.',
-  android: 'Double tap R on your keyboard to reload,\nShake or press menu button for dev menu.',
-})
-
 class LoginPage extends React.Component {
-  componentDidMount() {
- 
-  }
+  componentDidMount() {}
 
   render() {
     return (
-        <ScrollView style={{padding: 20}}>
-            <Text 
-                style={{fontSize: 27}}>
-                Login
-            </Text>
-            <TextInput placeholder='Username' />
-            <TextInput placeholder='Password' />
-            <View style={{margin:7}} />
-            <Button 
-                      onPress={()=>this.props.loginUser({username:'apsadra',password:'vpk11'})}
-                      title="Submit"
-                  />
+      <ScrollView style={{ padding: 20 }}>
+        <ActivityIndicator animating={this.props.isLoading} size="large" color="#0000ff" />
+        <Text style={{ fontSize: 27 }}>Login</Text>
+        <TextInput placeholder="Username" />
+        <TextInput placeholder="Password" />
+        <View style={{ margin: 7 }} />
+        <Button
+          onPress={() => this.props.loginUser({ username: 'apsadra', password: 'vpk11' })}
+          title="Submit"
+        />
 
-
-<Text 
-                style={{fontSize: 27}}>
-                {this.props.loginError}
-            </Text>
-              </ScrollView>
-        )
-}
-
-
+        <Text style={{ fontSize: 27 }}>{this.props.loginError}</Text>
+      </ScrollView>
+    )
+  }
 }
 
 LoginPage.propTypes = {
@@ -56,20 +39,22 @@ LoginPage.propTypes = {
   userErrorMessage: PropTypes.string,
   liveInEurope: PropTypes.bool,
   loginUser: PropTypes.func,
+  isLoading: PropTypes.bool,
+  loginError: PropTypes.string,
 }
 
 const mapStateToProps = (state) => ({
   user: state.example.user,
   userIsLoading: state.example.userIsLoading,
   loginError: state.login.loginError,
-
+  isLoading: state.session.isLoading,
 })
 
-
 const mapDispatchToProps = (dispatch) => ({
-    loginUser: (formData) => dispatch(LoginActions.loginUser(formData)),
-  })
+  loginUser: (formData) => dispatch(LoginActions.loginUser(formData)),
+})
 
 export default connect(
-  mapStateToProps,mapDispatchToProps
+  mapStateToProps,
+  mapDispatchToProps
 )(LoginPage)

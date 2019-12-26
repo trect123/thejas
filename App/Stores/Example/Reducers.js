@@ -14,9 +14,7 @@ export const fetchUserLoading = (state) => ({
   userErrorMessage: null,
 })
 
-export const fetchUserSuccess = (state, { user }) => (
-
-  {
+export const fetchUserSuccess = (state, { user }) => ({
   ...state,
   user: user,
   userIsLoading: false,

@@ -49,7 +49,7 @@ function loginUser(body) {
       if (response.data.success) {
         return response.data
       }
-      console.log('going to throw')
+      console.log('going to throw', response.data, ' and body was', body)
       throw new Error('User doesnt exist')
     })
 }

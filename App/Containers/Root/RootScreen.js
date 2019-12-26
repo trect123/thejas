@@ -10,7 +10,10 @@ import { Helpers } from 'App/Theme'
 class RootScreen extends Component {
   componentDidMount() {
     // Run the startup saga when the application is starting
-    this.props.startup()
+    // this.props.startup()
+    console.log('GOING TO MOUNT ROOT ', this.props.isLoggedIn)
+    if (this.props.isLoggedIn) NavigationService.navigateAndReset('MainScreen')
+    else NavigationService.navigateAndReset('LoginPage')
   }
 
   render() {
@@ -28,10 +31,12 @@ class RootScreen extends Component {
 
 RootScreen.propTypes = {
   startup: PropTypes.func,
+  isLoggedIn: PropTypes.bool,
 }
 
-const mapStateToProps = (state) => ({})
-
+const mapStateToProps = (state) => ({
+  isLoggedIn: state.login.isLoggedIn,
+})
 const mapDispatchToProps = (dispatch) => ({
   startup: () => dispatch(StartupActions.startup()),
 })

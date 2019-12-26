@@ -6,7 +6,6 @@ import ExampleActions from 'App/Stores/Example/Actions'
 import { liveInEurope } from 'App/Stores/Example/Selectors'
 import Style from './ExampleScreenStyle'
 import { ApplicationStyles, Helpers, Metrics } from 'App/Theme'
-import NavigationService from 'App/Services/NavigationService'
 
 /**
  * This is an example of a container component.
@@ -61,7 +60,7 @@ class ExampleScreen extends React.Component {
   }
 
   _fetchUser() {
-    NavigationService.navigateAndReset('LoginPage')
+    //  NavigationService.navigateAndReset('LoginPage')
     // this.props.fetchUser()
   }
 }

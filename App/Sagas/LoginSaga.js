@@ -24,6 +24,6 @@ export function* loginUser(data) {
   } catch (error) {
     yield put(SessionActions.resetIsLoading())
     console.log('inside catch', error)
-    yield put(LoginActions.loginUserFailure(error))
+    yield put(LoginActions.loginUserFailure(error.message))
   }
 }

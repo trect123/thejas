@@ -6,4 +6,5 @@ export const INITIAL_STATE = {
   userID: 0,
   userType: -1,
   loginError: '',
+  isLoggedIn: false,
 }

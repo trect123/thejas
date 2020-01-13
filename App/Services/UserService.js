@@ -24,7 +24,8 @@ const userApiClient = axios.create({
   /**
    * Import the config from the App/Config/index.js file
    */
-  baseURL: Config.API_URL,
+
+  baseURL: 'https://roxor.trect.in',
   headers: {
     Accept: 'application/json',
     'Content-Type': 'application/json',
@@ -54,7 +55,58 @@ function loginUser(body) {
     })
 }
 
+
+function getAccountHeads(body) {
+  const processedData = getReqHeaders({ ...body, deviceID: 'xyz' })
+  return userApiClient
+    .post('getalldata.php', processedData.body, processedData.headers)
+    .then((response) => {
+      if (response.data.success) {
+        return response.data
+      }
+      console.log('going to throw', response.data, ' and body was', body)
+      throw new Error('Failed to get list')
+    })
+}
+
+
+
+function getPaymentHistory(body) {
+  const processedData = getReqHeaders({ ...body, deviceID: 'xyz' })
+  console.log(" calling get pyment history",body)
+  return userApiClient
+    .post('getpaymenthistory.php', processedData.body, processedData.headers)
+    .then((response) => {
+      if (response.data.success) {
+        return response.data
+      }
+      console.log('going to throw', response.data, ' and body was', body)
+      throw new Error('Failed to get list')
+    })
+}
+
+
+function submitPayment(body) {
+  const processedData = getReqHeaders({ ...body, deviceID: 'xyz' })
+  console.log("here log not allowed",body)
+  return userApiClient
+    .post('submitpayment.php', processedData.body, processedData.headers)
+    .then((response) => {
+      if (response.data.success) {
+        return response.data
+      }
+      console.log('going to throw', response.data, ' and body was', body)
+      throw new Error('Failed to get list')
+    })
+}
+
+
 export const userService = {
   fetchUser,
   loginUser,
+  getAccountHeads,
+  submitPayment,
+  getPaymentHistory
 }
+
+

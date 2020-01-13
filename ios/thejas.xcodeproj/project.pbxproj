@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* CTMVenturesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CTMVenturesTests.m */; };
+		00E356F31AD99517003FC87E /* thejasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* thejasTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		180E8F10109AAC0F6C4AE8A5 /* libPods-CTMVentures-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C2C6D1905A57358D15545F /* libPods-CTMVentures-tvOS.a */; };
-		298566B4182437FDC9416AAA /* libPods-CTMVentures.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD0398590D8F93705C82ABE /* libPods-CTMVentures.a */; };
+		180E8F10109AAC0F6C4AE8A5 /* libPods-thejas-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C2C6D1905A57358D15545F /* libPods-thejas-tvOS.a */; };
+		298566B4182437FDC9416AAA /* libPods-thejas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD0398590D8F93705C82ABE /* libPods-thejas.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
-		2DCD954D1E0B4F2C00145EB5 /* CTMVenturesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CTMVenturesTests.m */; };
-		4DAB87E83FB0F8E413EA3C28 /* libPods-CTMVentures-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 262FB68990FABB4B74A57DD9 /* libPods-CTMVentures-tvOSTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* thejasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* thejasTests.m */; };
+		4DAB87E83FB0F8E413EA3C28 /* libPods-thejas-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 262FB68990FABB4B74A57DD9 /* libPods-thejas-tvOSTests.a */; };
 		63C37E8B2AC542F6BC4A8877 /* libRNGestureHandler-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB604BAD56CE40729982F1CB /* libRNGestureHandler-tvOS.a */; };
-		9B5170A1E2968F671F086D1D /* libPods-CTMVenturesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5329D520C5178EF1D2E66068 /* libPods-CTMVenturesTests.a */; };
+		9B5170A1E2968F671F086D1D /* libPods-thejasTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5329D520C5178EF1D2E66068 /* libPods-thejasTests.a */; };
 		BEDAA4C29F2A455594DDC00A /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECFD547ABDD40A8941F8AC8 /* libRNGestureHandler.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
@@ -33,48 +33,48 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = CTMVentures;
+			remoteInfo = thejas;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "CTMVentures-tvOS";
+			remoteInfo = "thejas-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0048B5962F042D541D140586 /* Pods-CTMVentures-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMVentures-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-CTMVentures-tvOSTests/Pods-CTMVentures-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		0048B5962F042D541D140586 /* Pods-thejas-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thejas-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-thejas-tvOSTests/Pods-thejas-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* CTMVenturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTMVenturesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* thejasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thejasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* CTMVenturesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTMVenturesTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* CTMVentures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTMVentures.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CTMVentures/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = CTMVentures/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* thejasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = thejasTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* thejas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thejas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = thejas/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = thejas/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CTMVentures/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CTMVentures/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CTMVentures/main.m; sourceTree = "<group>"; };
-		262FB68990FABB4B74A57DD9 /* libPods-CTMVentures-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CTMVentures-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E47B1E0B4A5D006451C7 /* CTMVentures-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CTMVentures-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* CTMVentures-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CTMVentures-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = thejas/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = thejas/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = thejas/main.m; sourceTree = "<group>"; };
+		262FB68990FABB4B74A57DD9 /* libPods-thejas-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-thejas-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* thejas-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "thejas-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* thejas-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "thejas-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		34E316EC11926A316EADC97C /* Pods-CTMVentures-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMVentures-tvOS.release.xcconfig"; path = "Target Support Files/Pods-CTMVentures-tvOS/Pods-CTMVentures-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		392317E8F372604E55971F70 /* Pods-CTMVenturesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMVenturesTests.release.xcconfig"; path = "Target Support Files/Pods-CTMVenturesTests/Pods-CTMVenturesTests.release.xcconfig"; sourceTree = "<group>"; };
-		46C2C6D1905A57358D15545F /* libPods-CTMVentures-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CTMVentures-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5329D520C5178EF1D2E66068 /* libPods-CTMVenturesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CTMVenturesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C3EFA04EABA7989E628AC64 /* Pods-CTMVentures-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMVentures-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-CTMVentures-tvOSTests/Pods-CTMVentures-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		75E936EB1A3002F6A9AB4156 /* Pods-CTMVentures.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMVentures.release.xcconfig"; path = "Target Support Files/Pods-CTMVentures/Pods-CTMVentures.release.xcconfig"; sourceTree = "<group>"; };
-		764AD50AC6F939E0A1C08B00 /* Pods-CTMVenturesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMVenturesTests.debug.xcconfig"; path = "Target Support Files/Pods-CTMVenturesTests/Pods-CTMVenturesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		34E316EC11926A316EADC97C /* Pods-thejas-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thejas-tvOS.release.xcconfig"; path = "Target Support Files/Pods-thejas-tvOS/Pods-thejas-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		392317E8F372604E55971F70 /* Pods-thejasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thejasTests.release.xcconfig"; path = "Target Support Files/Pods-thejasTests/Pods-thejasTests.release.xcconfig"; sourceTree = "<group>"; };
+		46C2C6D1905A57358D15545F /* libPods-thejas-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-thejas-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5329D520C5178EF1D2E66068 /* libPods-thejasTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-thejasTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3EFA04EABA7989E628AC64 /* Pods-thejas-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thejas-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-thejas-tvOSTests/Pods-thejas-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		75E936EB1A3002F6A9AB4156 /* Pods-thejas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thejas.release.xcconfig"; path = "Target Support Files/Pods-thejas/Pods-thejas.release.xcconfig"; sourceTree = "<group>"; };
+		764AD50AC6F939E0A1C08B00 /* Pods-thejasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thejasTests.debug.xcconfig"; path = "Target Support Files/Pods-thejasTests/Pods-thejasTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7ECFD547ABDD40A8941F8AC8 /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = "<group>"; };
-		B47D75E5D1913E2479AB2B8D /* Pods-CTMVentures.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMVentures.debug.xcconfig"; path = "Target Support Files/Pods-CTMVentures/Pods-CTMVentures.debug.xcconfig"; sourceTree = "<group>"; };
+		B47D75E5D1913E2479AB2B8D /* Pods-thejas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thejas.debug.xcconfig"; path = "Target Support Files/Pods-thejas/Pods-thejas.debug.xcconfig"; sourceTree = "<group>"; };
 		EB604BAD56CE40729982F1CB /* libRNGestureHandler-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNGestureHandler-tvOS.a"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		EDD0398590D8F93705C82ABE /* libPods-CTMVentures.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CTMVentures.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB800E05AFB04A97491C501A /* Pods-CTMVentures-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMVentures-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-CTMVentures-tvOS/Pods-CTMVentures-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		EDD0398590D8F93705C82ABE /* libPods-thejas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-thejas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB800E05AFB04A97491C501A /* Pods-thejas-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thejas-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-thejas-tvOS/Pods-thejas-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B5170A1E2968F671F086D1D /* libPods-CTMVenturesTests.a in Frameworks */,
+				9B5170A1E2968F671F086D1D /* libPods-thejasTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +92,7 @@
 			files = (
 				ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */,
 				BEDAA4C29F2A455594DDC00A /* libRNGestureHandler.a in Frameworks */,
-				298566B4182437FDC9416AAA /* libPods-CTMVentures.a in Frameworks */,
+				298566B4182437FDC9416AAA /* libPods-thejas.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +103,7 @@
 				ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */,
 				2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */,
 				63C37E8B2AC542F6BC4A8877 /* libRNGestureHandler-tvOS.a in Frameworks */,
-				180E8F10109AAC0F6C4AE8A5 /* libPods-CTMVentures-tvOS.a in Frameworks */,
+				180E8F10109AAC0F6C4AE8A5 /* libPods-thejas-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,20 +111,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DAB87E83FB0F8E413EA3C28 /* libPods-CTMVentures-tvOSTests.a in Frameworks */,
+				4DAB87E83FB0F8E413EA3C28 /* libPods-thejas-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* CTMVenturesTests */ = {
+		00E356EF1AD99517003FC87E /* thejasTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* CTMVenturesTests.m */,
+				00E356F21AD99517003FC87E /* thejasTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = CTMVenturesTests;
+			path = thejasTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -144,7 +144,7 @@
 			name = "Recovered References";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* CTMVentures */ = {
+		13B07FAE1A68108700A75B9A /* thejas */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -155,7 +155,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = CTMVentures;
+			name = thejas;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -164,10 +164,10 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
-				EDD0398590D8F93705C82ABE /* libPods-CTMVentures.a */,
-				46C2C6D1905A57358D15545F /* libPods-CTMVentures-tvOS.a */,
-				262FB68990FABB4B74A57DD9 /* libPods-CTMVentures-tvOSTests.a */,
-				5329D520C5178EF1D2E66068 /* libPods-CTMVenturesTests.a */,
+				EDD0398590D8F93705C82ABE /* libPods-thejas.a */,
+				46C2C6D1905A57358D15545F /* libPods-thejas-tvOS.a */,
+				262FB68990FABB4B74A57DD9 /* libPods-thejas-tvOSTests.a */,
+				5329D520C5178EF1D2E66068 /* libPods-thejasTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -175,14 +175,14 @@
 		6B80F6007C5408FEF5BD69DE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B47D75E5D1913E2479AB2B8D /* Pods-CTMVentures.debug.xcconfig */,
-				75E936EB1A3002F6A9AB4156 /* Pods-CTMVentures.release.xcconfig */,
-				FB800E05AFB04A97491C501A /* Pods-CTMVentures-tvOS.debug.xcconfig */,
-				34E316EC11926A316EADC97C /* Pods-CTMVentures-tvOS.release.xcconfig */,
-				5C3EFA04EABA7989E628AC64 /* Pods-CTMVentures-tvOSTests.debug.xcconfig */,
-				0048B5962F042D541D140586 /* Pods-CTMVentures-tvOSTests.release.xcconfig */,
-				764AD50AC6F939E0A1C08B00 /* Pods-CTMVenturesTests.debug.xcconfig */,
-				392317E8F372604E55971F70 /* Pods-CTMVenturesTests.release.xcconfig */,
+				B47D75E5D1913E2479AB2B8D /* Pods-thejas.debug.xcconfig */,
+				75E936EB1A3002F6A9AB4156 /* Pods-thejas.release.xcconfig */,
+				FB800E05AFB04A97491C501A /* Pods-thejas-tvOS.debug.xcconfig */,
+				34E316EC11926A316EADC97C /* Pods-thejas-tvOS.release.xcconfig */,
+				5C3EFA04EABA7989E628AC64 /* Pods-thejas-tvOSTests.debug.xcconfig */,
+				0048B5962F042D541D140586 /* Pods-thejas-tvOSTests.release.xcconfig */,
+				764AD50AC6F939E0A1C08B00 /* Pods-thejasTests.debug.xcconfig */,
+				392317E8F372604E55971F70 /* Pods-thejasTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -197,9 +197,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* CTMVentures */,
+				13B07FAE1A68108700A75B9A /* thejas */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* CTMVenturesTests */,
+				00E356EF1AD99517003FC87E /* thejasTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				0476B6D92256026C006BDB17 /* Recovered References */,
@@ -213,10 +213,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* CTMVentures.app */,
-				00E356EE1AD99517003FC87E /* CTMVenturesTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* CTMVentures-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* CTMVentures-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* thejas.app */,
+				00E356EE1AD99517003FC87E /* thejasTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* thejas-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* thejas-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -224,9 +224,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* CTMVenturesTests */ = {
+		00E356ED1AD99517003FC87E /* thejasTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CTMVenturesTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "thejasTests" */;
 			buildPhases = (
 				9484506995FC29A4EE3D00D6 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -238,14 +238,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = CTMVenturesTests;
-			productName = CTMVenturesTests;
-			productReference = 00E356EE1AD99517003FC87E /* CTMVenturesTests.xctest */;
+			name = thejasTests;
+			productName = thejasTests;
+			productReference = 00E356EE1AD99517003FC87E /* thejasTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* CTMVentures */ = {
+		13B07F861A680F5B00A75B9A /* thejas */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CTMVentures" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "thejas" */;
 			buildPhases = (
 				1876371A241F99EEA27D744C /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -257,14 +257,14 @@
 			);
 			dependencies = (
 			);
-			name = CTMVentures;
+			name = thejas;
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* CTMVentures.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* thejas.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* CTMVentures-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* thejas-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CTMVentures-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "thejas-tvOS" */;
 			buildPhases = (
 				E7187EBD4D89301711758D0B /* [CP] Check Pods Manifest.lock */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
@@ -276,14 +276,14 @@
 			);
 			dependencies = (
 			);
-			name = "CTMVentures-tvOS";
-			productName = "CTMVentures-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* CTMVentures-tvOS.app */;
+			name = "thejas-tvOS";
+			productName = "thejas-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* thejas-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* CTMVentures-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* thejas-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CTMVentures-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "thejas-tvOSTests" */;
 			buildPhases = (
 				1486E41A1E3086C92FA56BC5 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -295,9 +295,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "CTMVentures-tvOSTests";
-			productName = "CTMVentures-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* CTMVentures-tvOSTests.xctest */;
+			name = "thejas-tvOSTests";
+			productName = "thejas-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* thejas-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -324,7 +324,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CTMVentures" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "thejas" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -338,10 +338,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* CTMVentures */,
-				00E356ED1AD99517003FC87E /* CTMVenturesTests */,
-				2D02E47A1E0B4A5D006451C7 /* CTMVentures-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* CTMVentures-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* thejas */,
+				00E356ED1AD99517003FC87E /* thejasTests */,
+				2D02E47A1E0B4A5D006451C7 /* thejas-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* thejas-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -410,7 +410,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CTMVentures-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-thejas-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -432,7 +432,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CTMVentures-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-thejas-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -468,7 +468,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CTMVenturesTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-thejasTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -490,7 +490,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CTMVentures-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-thejas-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -504,7 +504,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* CTMVenturesTests.m in Sources */,
+				00E356F31AD99517003FC87E /* thejasTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,7 +530,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* CTMVenturesTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* thejasTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,12 +539,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* CTMVentures */;
+			target = 13B07F861A680F5B00A75B9A /* thejas */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* CTMVentures-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* thejas-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -556,7 +556,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = CTMVentures;
+			path = thejas;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -564,7 +564,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 764AD50AC6F939E0A1C08B00 /* Pods-CTMVenturesTests.debug.xcconfig */;
+			baseConfigurationReference = 764AD50AC6F939E0A1C08B00 /* Pods-thejasTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -575,7 +575,7 @@
 					"$(inherited)",
 					"$(SRCROOT)..\node_modules\neact-native-gesture-handlerios/**",
 				);
-				INFOPLIST_FILE = CTMVenturesTests/Info.plist;
+				INFOPLIST_FILE = thejasTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -589,13 +589,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CTMVentures.app/CTMVentures";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thejas.app/thejas";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 392317E8F372604E55971F70 /* Pods-CTMVenturesTests.release.xcconfig */;
+			baseConfigurationReference = 392317E8F372604E55971F70 /* Pods-thejasTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -603,7 +603,7 @@
 					"$(inherited)",
 					"$(SRCROOT)..\node_modules\neact-native-gesture-handlerios/**",
 				);
-				INFOPLIST_FILE = CTMVenturesTests/Info.plist;
+				INFOPLIST_FILE = thejasTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -617,13 +617,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CTMVentures.app/CTMVentures";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thejas.app/thejas";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B47D75E5D1913E2479AB2B8D /* Pods-CTMVentures.debug.xcconfig */;
+			baseConfigurationReference = B47D75E5D1913E2479AB2B8D /* Pods-thejas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -632,7 +632,7 @@
 					"$(inherited)",
 					"$(SRCROOT)..\node_modules\neact-native-gesture-handlerios/**",
 				);
-				INFOPLIST_FILE = CTMVentures/Info.plist;
+				INFOPLIST_FILE = thejas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -640,14 +640,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = CTMVentures;
+				PRODUCT_NAME = thejas;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75E936EB1A3002F6A9AB4156 /* Pods-CTMVentures.release.xcconfig */;
+			baseConfigurationReference = 75E936EB1A3002F6A9AB4156 /* Pods-thejas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -655,7 +655,7 @@
 					"$(inherited)",
 					"$(SRCROOT)..\node_modules\neact-native-gesture-handlerios/**",
 				);
-				INFOPLIST_FILE = CTMVentures/Info.plist;
+				INFOPLIST_FILE = thejas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -663,14 +663,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = CTMVentures;
+				PRODUCT_NAME = thejas;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB800E05AFB04A97491C501A /* Pods-CTMVentures-tvOS.debug.xcconfig */;
+			baseConfigurationReference = FB800E05AFB04A97491C501A /* Pods-thejas-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -685,7 +685,7 @@
 					"$(inherited)",
 					"$(SRCROOT)..\node_modules\neact-native-gesture-handlerios/**",
 				);
-				INFOPLIST_FILE = "CTMVentures-tvOS/Info.plist";
+				INFOPLIST_FILE = "thejas-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -696,7 +696,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.CTMVentures-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.thejas-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -706,7 +706,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34E316EC11926A316EADC97C /* Pods-CTMVentures-tvOS.release.xcconfig */;
+			baseConfigurationReference = 34E316EC11926A316EADC97C /* Pods-thejas-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -721,7 +721,7 @@
 					"$(inherited)",
 					"$(SRCROOT)..\node_modules\neact-native-gesture-handlerios/**",
 				);
-				INFOPLIST_FILE = "CTMVentures-tvOS/Info.plist";
+				INFOPLIST_FILE = "thejas-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -732,7 +732,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.CTMVentures-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.thejas-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -742,7 +742,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C3EFA04EABA7989E628AC64 /* Pods-CTMVentures-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 5C3EFA04EABA7989E628AC64 /* Pods-thejas-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -756,7 +756,7 @@
 					"$(inherited)",
 					"$(SRCROOT)..\node_modules\neact-native-gesture-handlerios/**",
 				);
-				INFOPLIST_FILE = "CTMVentures-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "thejas-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -767,17 +767,17 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.CTMVentures-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.thejas-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CTMVentures-tvOS.app/CTMVentures-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thejas-tvOS.app/thejas-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0048B5962F042D541D140586 /* Pods-CTMVentures-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 0048B5962F042D541D140586 /* Pods-thejas-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -791,7 +791,7 @@
 					"$(inherited)",
 					"$(SRCROOT)..\node_modules\neact-native-gesture-handlerios/**",
 				);
-				INFOPLIST_FILE = "CTMVentures-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "thejas-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -802,10 +802,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.CTMVentures-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.thejas-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CTMVentures-tvOS.app/CTMVentures-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thejas-tvOS.app/thejas-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -912,7 +912,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CTMVenturesTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "thejasTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -921,7 +921,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CTMVentures" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "thejas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -930,7 +930,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CTMVentures-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "thejas-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -939,7 +939,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CTMVentures-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "thejas-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -948,7 +948,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CTMVentures" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "thejas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

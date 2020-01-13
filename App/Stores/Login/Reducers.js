@@ -12,7 +12,8 @@ export const loginUser = (state) => ({
   ...state,
   isLoggedIn: false,
   username: '',
-  userID: 0,
+  userId: 0,
+  deviceId:'xyz',
   userType: -1,
   loginError: '',
 })
@@ -20,9 +21,10 @@ export const loginUser = (state) => ({
 export const loginUserSuccess = (state, userDetails) => ({
   ...state,
   isLoggedIn: true,
-  username: userDetails.username,
-  userID: userDetails.userID,
-  userType: userDetails.loginType,
+  username: userDetails.data.username,
+  userId: userDetails.data.userid,
+  accessToken: userDetails.data.accessToken, 
+  userType: userDetails.data.loginType,
   loginError: '',
 })
 
@@ -36,11 +38,21 @@ export const clearError = (state) => ({
   loginError: '',
 })
 
+export const logoutUser = (state) => ({
+  ...state,
+  isLoggedIn: false,
+  username: 'logged out ',
+  userId: '',
+  userType:'',
+  loginError: '',
+})
+
 /**
  * @see https://github.com/infinitered/reduxsauce#createreducer
  */
 export const reducer = createReducer(INITIAL_STATE, {
   [LoginTypes.LOGIN_USER]: loginUser,
+  [LoginTypes.LOGOUT_USER]: logoutUser,
   [LoginTypes.LOGIN_USER_SUCCESS]: loginUserSuccess,
   [LoginTypes.LOGIN_USER_FAILURE]: loginUserFailure,
   [LoginTypes.CLEAR_ERROR]: clearError,

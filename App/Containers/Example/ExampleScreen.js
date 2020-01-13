@@ -2,10 +2,11 @@ import React from 'react'
 import { Platform, Text, View, Button, ActivityIndicator } from 'react-native'
 import { connect } from 'react-redux'
 import { PropTypes } from 'prop-types'
-import ExampleActions from 'App/Stores/Example/Actions'
+import LoginActions from 'App/Stores/Login/Actions'
 import { liveInEurope } from 'App/Stores/Example/Selectors'
 import Style from './ExampleScreenStyle'
 import { ApplicationStyles, Helpers, Metrics } from 'App/Theme'
+import NavigationService from 'App/Services/NavigationService'
 
 /**
  * This is an example of a container component.
@@ -21,10 +22,12 @@ const instructions = Platform.select({
 
 class ExampleScreen extends React.Component {
   componentDidMount() {
+    console.log('thhhh',this.props)
     // this._fetchUser()
   }
 
   render() {
+    console.log("account heads is ",this.props.accountHeads);
     return (
       <View
         style={[
@@ -34,23 +37,24 @@ class ExampleScreen extends React.Component {
           Metrics.mediumVerticalMargin,
         ]}
       >
-        {this.props.userIsLoading ? (
+        {this.props.userIsLoading && 0 ? (
           <ActivityIndicator size="large" color="#0000ff" />
         ) : (
           <View>
-            <Text style={Style.text}>To get started, edit App.js</Text>
+            <Text style={Style.text}>To gset started, edit App.js</Text>
+            <Text style={Style.result}>{JSON.stringify(this.props)}end odf name</Text>
             <Text style={Style.instructions}>{instructions}</Text>
             {this.props.userErrorMessage ? (
               <Text style={Style.error}>{this.props.userErrorMessage}</Text>
             ) : (
               <View>
-                <Text style={Style.result}>{this.props.user.name}</Text>
-                <Text style={Style.result}>{`dddddd${this.props.user.address.city}`}</Text>
+             
+         
               </View>
             )}
             <Button
               style={ApplicationStyles.button}
-              onPress={() => this._fetchUser()}
+              onPress={() => this.logoutUser()}
               title="Refresh"
             />
           </View>
@@ -59,9 +63,11 @@ class ExampleScreen extends React.Component {
     )
   }
 
-  _fetchUser() {
-    //  NavigationService.navigateAndReset('LoginPage')
-    // this.props.fetchUser()
+  logoutUser() {
+    console.log("log out pressed",this.props.userIsLoading," end of medsage");
+ 
+     this.props.logoutUser()
+          NavigationService.navigateAndReset('LoginPage')
   }
 }
 
@@ -71,17 +77,21 @@ ExampleScreen.propTypes = {
   userErrorMessage: PropTypes.string,
   fetchUser: PropTypes.func,
   liveInEurope: PropTypes.bool,
+  accountHeads: PropTypes.array,
+
 }
 
 const mapStateToProps = (state) => ({
+  accountHeads: state.functionality.accountHeads,
+  accessToken: state.login.isLoggedIn,
   user: state.example.user,
-  userIsLoading: state.example.userIsLoading,
+  userIsLoading: state.login.isLoggedIn,
   userErrorMessage: state.example.userErrorMessage,
   liveInEurope: liveInEurope(state),
 })
 
 const mapDispatchToProps = (dispatch) => ({
-  fetchUser: () => dispatch(ExampleActions.fetchUser()),
+  logoutUser: () => dispatch(LoginActions.logoutUser()),
 })
 
 export default connect(

@@ -20,15 +20,25 @@ import { createActions } from 'reduxsauce'
  */
 const { Types, Creators } = createActions({
   // Fetch user informations
-  loginUser: ['payload'],
+  getAccountHeads: ['payload'],
   // User informations were successfully fetched
-  logoutUser:null,
-  // User informations were successfully fetched
-  loginUserSuccess: ['data'],
+
+  getAccountHeadsSuccess: ['data'],
   // An error occurred
-  loginUserFailure: ['errorMessage'],
+  getAccountHeadsFailure: ['errorMessage'],
+  submitPayment: ['payload'],
+  // User informations were successfully fetched
+  submitPaymentSuccess: ['data'],
+  // An error occurred
+  submitPaymentFailed: ['errorMessage'],
   clearError: null,
+
+  getPaymentHistory: ['payload'],
+  // User informations were successfully fetched
+  getPaymentHistorySuccess: ['data'],
+  // An error occurred
+  getPaymentHistoryFailure: ['errorMessage'],
 })
 
-export const LoginTypes = Types
+export const FunctionalityTypes = Types
 export default Creators

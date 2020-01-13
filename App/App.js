@@ -8,6 +8,7 @@ const { store, persistor } = createStore()
 // export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64/jre/"
 export default class App extends Component {
   render() {
+    console.log("first render")
     return (
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>

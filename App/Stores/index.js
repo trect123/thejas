@@ -4,6 +4,7 @@ import rootSaga from 'App/Sagas'
 import { reducer as ExampleReducer } from './Example/Reducers'
 import { reducer as LoginReducer } from './Login/Reducers'
 import { reducer as SessionReducer } from './Session/Reducers'
+import { reducer as FunctionalityReducer } from './Functionality/Reducers'
 export default () => {
   const rootReducer = combineReducers({
     /**
@@ -13,6 +14,7 @@ export default () => {
     example: ExampleReducer,
     login: LoginReducer,
     session: SessionReducer,
+    functionality: FunctionalityReducer,
   })
 
   return configureStore(rootReducer, rootSaga)

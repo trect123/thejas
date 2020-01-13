@@ -26,7 +26,8 @@ class LoginPage extends React.Component {
 
   componentDidUpdate() {
     console.log('Component did update', this.props.isLoggedIn)
-    if (this.props.isLoggedIn) NavigationService.navigateAndReset('MainScreen')
+  if (this.props.isLoggedIn) NavigationService.navigateAndReset('ScannerPage')
+  console.log("after navigatig");
   }
 
   handleChange = (name) => (e) => {
@@ -36,6 +37,7 @@ class LoginPage extends React.Component {
   }
 
   render() {
+    console.log("inside login page ",this.props.test)
     return (
       <ScrollView style={{ padding: 20 }}>
         <ActivityIndicator animating={this.props.isLoading} size="large" color="#0000ff" />
@@ -76,6 +78,7 @@ LoginPage.propTypes = {
 }
 
 const mapStateToProps = (state) => ({
+  test:state.login,
   user: state.example.user,
   userIsLoading: state.example.userIsLoading,
   loginError: state.login.loginError,

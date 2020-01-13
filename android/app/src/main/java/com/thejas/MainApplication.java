@@ -1,4 +1,4 @@
-package com.ctmventures;
+package com.thejas;
 
 import android.app.Application;
 import android.content.Context;

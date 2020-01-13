@@ -3,8 +3,10 @@
  */
 export const INITIAL_STATE = {
   username: '',
-  userID: 0,
+  userId: 0,
   userType: -1,
   loginError: '',
   isLoggedIn: false,
+accessToken: '',
+deviceId:'xyz',
 }

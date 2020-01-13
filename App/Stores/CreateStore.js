@@ -34,6 +34,16 @@ export default (rootReducer, rootSaga) => {
 
   enhancers.push(applyMiddleware(...middleware))
 
+  // Debug tool integration;
+  let composeEnhancers = compose;
+  if (__DEV__) {
+    // Use it if Remote debugging with RNDebugger, otherwise use remote-redux-devtools
+    // eslint-disable-next-line no-underscore-dangle
+    composeEnhancers = (window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ ||
+      require('remote-redux-devtools').composeWithDevTools)({
+      name: Platform.OS,
+    });
+  }
   // Redux persist
   const persistedReducer = persistReducer(persistConfig, rootReducer)
 

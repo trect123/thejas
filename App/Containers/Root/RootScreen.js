@@ -12,7 +12,7 @@ class RootScreen extends Component {
     // Run the startup saga when the application is starting
     // this.props.startup()
     console.log('GOING TO MOUNT ROOT ', this.props.isLoggedIn)
-    if (this.props.isLoggedIn) NavigationService.navigateAndReset('MainScreen')
+    if (this.props.isLoggedIn) NavigationService.navigateAndReset('ScannerPage')
     else NavigationService.navigateAndReset('LoginPage')
   }
 

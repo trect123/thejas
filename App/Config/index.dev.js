@@ -1,3 +1,3 @@
 export const Config = {
-  API_URL: 'https://ctmgvischool.trect.in',
+  API_URL: 'https://roxor.trect.in',
 }
